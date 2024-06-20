@@ -1,2 +1,2 @@
 # MaterialUI-Basics
-Learning the Basics of Material UI
+Learn the Basics of Material UI
