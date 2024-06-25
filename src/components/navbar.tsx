@@ -37,9 +37,5 @@ const MuiNavbar=()=>{
      </AppBar>
     );
 };
-const navigationbar =(
-    <>
-    <MuiNavbar/>
-    </>
-);
-export default navigationbar;
+
+export default MuiNavbar;

@@ -1,17 +1,15 @@
 import React from "react";
-import {Stack} from "@mui/material";
-import '../index.css';
+import {Stack, Link} from "@mui/material";
 const MuiLink =()=>{
     return(
         <Stack>
-
+        <Stack spacing={2} direction='row'>
+            <Link href="" underline="hover">Home</Link>
+            <Link href="" color="secondary" underline="none">Contact us</Link>
+        </Stack>
         </Stack>
     );
 };
 
-const linkElem=(
-    <>
-    <MuiLink/>
-    </>
-);
-export default linkElem;
+
+export default MuiLink;
